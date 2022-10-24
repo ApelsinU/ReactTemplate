@@ -1,6 +1,9 @@
-Basic template
+Basic template:
 - React
-- TypeScript
+- TypeScript 
 - SCSS
-- Prettier
-- Stylelint
+- Prettier / Stylelint / EsLint
+
+Other features:
+- React Path Alias
+- CRACO (Create React App Configuration Override) to modify webpack-config without eject

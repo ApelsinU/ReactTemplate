@@ -1,12 +1,11 @@
 import React from 'react'
 
+import { HomePage } from './pages/HomePage'
 function App() {
   return (
-    <div className="mask">
-      <div className="hello-block">
-        <h1>React App Template</h1>
-      </div>
-    </div>
+    <>
+      <HomePage />
+    </>
   )
 }
 export default App

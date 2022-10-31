@@ -1,0 +1,48 @@
+.home-page {
+  .mask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .hello-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px 4px #000;
+    transform: rotateZ(0);
+    transition: all 0.9s ease-in-out;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.06);
+      box-shadow:
+        inset 0 5px 10px 4px #47b0dd,
+        inset 0 0 10px 4px  #84d040;
+      transform: rotateZ(360deg);
+
+      .logo {
+        opacity: 1;
+      }
+
+      h1 {
+        color: #567000;
+      }
+    }
+
+    h1 {
+      font-size: 44px;
+    }
+  }
+
+  .logo {
+    width: 60%;
+    opacity: 0.5;
+  }
+}
